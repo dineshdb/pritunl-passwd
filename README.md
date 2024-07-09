@@ -1,6 +1,6 @@
 # README
 
-CLI for generating prutinl password.
+CLI for generating pritunl password.
 
 ## Environment Varaibles
 
