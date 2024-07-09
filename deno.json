@@ -1,0 +1,12 @@
+{
+  "name": "@util/pritunl-passwd",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
+  "tasks": {
+    "dev": "deno run --watch mod.ts"
+  },
+  "imports": {
+    "@maks11060/otp": "jsr:@maks11060/otp@^0.0.4",
+    "@std/encoding": "jsr:@std/encoding@^1.0.1"
+  }
+}
