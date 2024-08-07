@@ -1,7 +1,7 @@
 import passwordInput from "@inquirer/password";
 import { totp } from "@maks11060/otp";
 import { Entry } from "@napi-rs/keyring";
-import { decodeBase32 } from "jsr:@std/encoding@^0.224.0/base32";
+import { decodeBase32 } from "@std/encoding/base32";
 /**
  * given a password and totp-secret, generate a password to be used in pritunl-client
  */
@@ -13,6 +13,11 @@ export async function generatePritnulPassword(
   return `${password}${totpCode}`;
 }
 
+/**
+ * Get password from keyring or prompt user to enter password
+ * @param name
+ * @param description
+ */
 export async function getPassword(
   name: string,
   description: string,

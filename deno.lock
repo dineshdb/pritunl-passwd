@@ -2,10 +2,13 @@
   "version": "3",
   "packages": {
     "specifiers": {
+      "jsr:@maks11060/otp": "jsr:@maks11060/otp@0.0.4",
       "jsr:@maks11060/otp@^0.0.4": "jsr:@maks11060/otp@0.0.4",
       "jsr:@std/encoding@^0.224.0": "jsr:@std/encoding@0.224.0",
       "jsr:@std/encoding@^1.0.1": "jsr:@std/encoding@1.0.1",
+      "npm:@inquirer/password": "npm:@inquirer/password@2.1.22",
       "npm:@inquirer/password@^2.1.22": "npm:@inquirer/password@2.1.22",
+      "npm:@napi-rs/keyring": "npm:@napi-rs/keyring@1.1.6",
       "npm:@napi-rs/keyring@^1.1.6": "npm:@napi-rs/keyring@1.1.6"
     },
     "jsr": {
