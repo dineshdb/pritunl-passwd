@@ -2,16 +2,14 @@
 
 CLI for generating pritunl password.
 
-## Environment Varaibles
-
-- PRITUNL_TOTP_KEY
-- PRITUNL_PASSWORD
-
 ## Installation
 
 ```
+# run
+deno run --allow-env --allow-read --allow-sys --allow-ffi jsr:@util/pritunl-passwd
+
 # install as global cli
-deno install -g --allow-env jsr:@util/pritunl-passwd
+deno install -g --allow-env --allow-read --allow-sys --allow-ffi jsr:@util/pritunl-passwd
 
 # add dependency
 npx jsr add @util/pritunl-passwd
