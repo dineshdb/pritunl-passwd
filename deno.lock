@@ -3,6 +3,7 @@
   "specifiers": {
     "jsr:@maks11060/otp@*": "0.0.4",
     "jsr:@maks11060/otp@^0.0.4": "0.0.4",
+    "jsr:@std/dotenv@~0.225.4": "0.225.4",
     "jsr:@std/encoding@0.224": "0.224.0",
     "jsr:@std/encoding@^1.0.10": "1.0.10",
     "npm:@inquirer/password@*": "2.1.22",
@@ -16,6 +17,9 @@
       "dependencies": [
         "jsr:@std/encoding@0.224"
       ]
+    },
+    "@std/dotenv@0.225.4": {
+      "integrity": "2a672c2b192abe535dcfea1ae89f219ee3979af6aad7d185cb19206ee9bc5caf"
     },
     "@std/encoding@0.224.0": {
       "integrity": "efb6dca97d3e9c31392bd5c8cfd9f9fc9decf5a1f4d1f78af7900a493bcf89b5"
@@ -264,6 +268,7 @@
   "workspace": {
     "dependencies": [
       "jsr:@maks11060/otp@^0.0.4",
+      "jsr:@std/dotenv@~0.225.4",
       "jsr:@std/encoding@^1.0.10",
       "npm:@inquirer/password@^2.1.22",
       "npm:@napi-rs/keyring@^1.1.6"

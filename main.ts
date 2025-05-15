@@ -1,3 +1,4 @@
+import "@std/dotenv/load";
 import { generatePritnulPassword, getPassword } from "./mod.ts";
 
 export default async function main() {
