@@ -1,6 +1,6 @@
 {
   "name": "@util/pritunl-passwd",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "exports": "./mod.ts",
   "tasks": {
     "dev": "deno run --watch mod.ts"
@@ -9,6 +9,6 @@
     "@inquirer/password": "npm:@inquirer/password@^2.1.22",
     "@maks11060/otp": "jsr:@maks11060/otp@^0.0.4",
     "@napi-rs/keyring": "npm:@napi-rs/keyring@^1.1.6",
-    "@std/encoding": "jsr:@std/encoding@^1.0.1"
+    "@std/encoding": "jsr:@std/encoding@^1.0.10"
   }
 }

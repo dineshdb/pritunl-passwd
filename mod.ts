@@ -9,7 +9,7 @@ export async function generatePritnulPassword(
   password: string,
   totpKey: string,
 ): Promise<string> {
-  const totpCode = await totp({ secret: decodeBase32(totpKey!) });
+  const totpCode = await totp({ secret: decodeBase32(totpKey!).buffer });
   return `${password}${totpCode}`;
 }
 
